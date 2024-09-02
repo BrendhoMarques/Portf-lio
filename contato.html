@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+      <!-- Cabeçalho da página "Contato" -->
+    <header class="cabecalho"> <!--Classe cabecalho tem a finalidade de estilizar o cabecalho da página -->
+        <div>
+            <h1>Contato</h1>
+            <nav><!--Navegação do site que fica no topo da página-->
+                <ul>
+                    <li><a href="index.html">Sobre Mim</a> </li><!--Redireciona o usuário à página "Sobre Mim"-->
+                    <li><a href="formacao.html">Formação</a></li><!--Redireciona o usuário à página "Formação"-->
+                    <li><a href="portfolio.html">Portfólio</a></li><!--Redireciona o usuário à página "Portfólio"-->
+                    <li><a href="contato.html">Contato</a></li><!--Redireciona o usuário à página "Contato"-->
+                </ul>
+            </nav>
+        </div>       
+        
+    </header>
+        
+    <!--Conteúdo principal da página "Contato"-->
+    <main>
+        <section><!--Um section para envio de formulário-->
+           <form action="https://formspree.io/f/xjkbewdy"
+           method="POST">
+                <div class="txtv"><label for="nome">Nome:</label></div>
+                <input required type="text" maxlength="100"><!--Input do campo nome, com tamanho máximo de 100 caracteres-->
+                
+                <div class="txtv"><label for="email">Email:</label></div>
+                <input required type="email" maxlength="320" ><!--Input do campo Email, com tamanho máximo de 320 caracteres-->
+                
+                <div class="txtv"><label for="telefone">Telefone:</label></div>
+                <input required type="tel" maxlength="20"><!--Input do campo Telefone, com tamanho máximo de 20 caracteres-->
+                
+                <div class="txtv"><label for="mensagem">Mensagem:</label></div>
+                <textarea required name="mensagem" maxlength="3300"></textarea><!--Input do campo Mensagem, com tamanho máximo de 3300 caracteres-->
+
+                <button type="submit">Enviar</button><!--Botão para enviar o formulário via formspree para o meu Email-->
+            </form>           
+        </section><br>
+    </main>
+</body>
+</html>

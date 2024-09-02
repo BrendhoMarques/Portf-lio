@@ -1,0 +1,184 @@
+body{/*Estilização geral do site*/
+    background-color: #f5f5f5;
+    margin: 0;/*Remoção do espaçamento do menu(topo) de naveção*/
+    padding: 0;/*Remoção do espaçamento do menu(topo) de naveção*/
+}
+
+.sobreMim, .interesses, .objetivos {/*Estilização para a pagina "Sobre Mim" e para seus respectivos Sections*/
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 15px 13px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px; /*Um padding(espaçamento) de 20 pixels(px)*/
+    margin-bottom: 20px;/*Um margin-bottom(margem inferior) de 20 pixels(px)*/
+}
+
+
+
+.formacao {/*Estilização para a pagina "Formação" e para seu Section*/
+    font-size: 20px;/*Fonte para a classe formacao, de 20 pixels(px)*/
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px #cfcccc;
+    padding: 20px;
+    margin: 20px auto;
+    
+}
+
+.formacao h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0; /* Remove margem padrão */
+    padding-bottom: 20px; /* Espaço abaixo do título */
+}
+
+.item {/*Estilização dos itens presentes na página "Formação"*/
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow:  5px 5px 20px 0px #a09f9f; /* Ajustado o valor da sombra */
+    margin-bottom: 15px;
+}
+.item img.logo {/*Estilização da imagem/logo da uninter*/
+    max-width: 300px;
+    height: auto; 
+}
+
+.idiomas p{/*Estilização do texto dos idiomas*/
+    margin: 10px 30px;
+}
+
+.projeto{/*Estilização da lista presenta na página "Portfólio"*/
+    font-size: 0.7cm;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color:#f5f5f5;
+    
+}
+
+.projeto li{
+    list-style: lower-latin;
+    border-bottom: none;
+    margin-bottom: 10px;
+    margin: 0px;
+}
+.projeto ol{
+    margin-top: 10px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+.projeto p{
+    margin-top: 10px;
+}
+
+.projeto a{
+    color: #0f3b55;
+    text-decoration: none;
+    font-weight: bold;
+}
+.projeto a:hover{
+    text-decoration: underline;
+}
+
+.cabecalho{/* Estilização do cabeçalho das páginas */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.subtitulo{/*Estilização geral para subtítulos presentes nas páginas*/
+    font-family: sans-serif;
+    font-size: 1cm;
+    padding-left: 0cm;
+}
+
+.titulo{/*Estilização geral para títulos presentes nas páginas*/
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.txtv{/*Estilização para os textos nas páginas*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.7cm;
+    font-weight: 100;
+}
+
+header{/*Estilização geral do cabeçalho com ênfase no link das páginas de navegação*/
+    background-color: rgb(0, 0, 0);
+    color:#ffffff;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+header h1{
+    margin: 0;
+    font-size: 1.2cm;
+}
+
+ul{/*Estilização para personalizar os itens para navegação*/
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+
+}
+
+li{
+    margin-left: 20px;
+}
+
+li:first-child{
+    margin-left: 0;
+}
+
+a{/*Estilização dos links*/
+    color: #faf4f4;
+    font-weight: 200;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+main{
+    padding: 20px;
+    max-width: 1000px;
+    margin:auto;
+    
+}
+
+label{/*Estilização geral para os labels*/
+    display:block;
+    font-weight: bolder;
+
+}
+
+button {/*Uma estilização geral dos botões*/
+    background-color: #01578a;
+    color: white;
+    border-radius: 4px;
+    height: 1.2cm;
+    width: 3cm;
+    cursor: pointer;
+
+}
+
+input{/*Estilização para os inputs da página "Contato"*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 0.1cm;
+    width: 100%;
+    height: 0.5cm;
+    font-size: 0.7cm;
+    padding: 0.2cm;
+}
+
+textarea{/*Estilização para o textarea(Campo de texto) na página contato*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    height: 10cm;
+    font-size: 0.7cm;
+    padding: 0.2cm;
+}
